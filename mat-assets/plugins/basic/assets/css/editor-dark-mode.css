@@ -1,0 +1,733 @@
+/*! matportal - v2.9.13 - 22-06-2020 */
+body {
+  color: #E0E1E3; }
+  body .pcr-app {
+    background-color: #4C4F56;
+    -webkit-box-shadow: 0 0.15em 1.5em 0 rgba(0, 0, 0, 0.5), 0 0 1em 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0.15em 1.5em 0 rgba(0, 0, 0, 0.5), 0 0 1em 0 rgba(0, 0, 0, 0.05); }
+    body .pcr-app .pcr-swatches > button:after {
+      -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+              box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
+    body .pcr-app .pcr-clear {
+      color: #E0E1E3;
+      background-color: #64666A; }
+    body .pcr-app .pcr-interaction .pcr-result {
+      color: #E0E1E3;
+      border-color: #64666A; }
+      body .pcr-app .pcr-interaction .pcr-result:focus {
+        border-color: #7D7E82; }
+  body .pcr-swatch.pcr-active:after {
+    -webkit-box-shadow: 0 0 0 1px #71d7f7, inset 0 0 0 1px #4C4F56;
+            box-shadow: 0 0 0 1px #71d7f7, inset 0 0 0 1px #4C4F56; }
+  body .pcr-swatch.pcr-active ~ .matportal-color-picker__add-swatch {
+    background-color: #64666A; }
+    body .pcr-swatch.pcr-active ~ .matportal-color-picker__add-swatch i {
+      color: #E0E1E3; }
+
+#matportal-loading {
+  background-color: #34383C; }
+
+.matportal-loader {
+  background-color: #4C4F56; }
+
+.matportal-safe-mode-toast {
+  background-color: #4C4F56; }
+  .matportal-safe-mode-toast header h2,
+  .matportal-safe-mode-toast .matportal-toast-content {
+    color: #E0E1E3; }
+
+input, select, textarea, .matportal-input-style {
+  color: #E0E1E3;
+  background-color: #34383C; }
+  input:not(:focus), select:not(:focus), textarea:not(:focus), .matportal-input-style:not(:focus) {
+    border-color: #64666A; }
+  input:focus, select:focus, textarea:focus, .matportal-input-style:focus {
+    border-color: #7D7E82; }
+  input[disabled], select[disabled], textarea[disabled], .matportal-input-style[disabled] {
+    background-color: #4C4F56; }
+
+select {
+  background-color: #34383C; }
+
+.matportal-button.matportal-button-default {
+  background-color: #64666A; }
+  .matportal-button.matportal-button-default:hover {
+    background-color: #4C4F56; }
+
+.matportal-button.matportal-button-success[disabled] {
+  background-color: #64666A; }
+
+.matportal-button.matportal-button-danger {
+  background-color: #F84343; }
+
+#matportal-mode-switcher {
+  background-color: #34383C; }
+  #matportal-mode-switcher:hover {
+    background-color: #71D7F7; }
+
+.matportal-control-dynamic-switcher {
+  background-color: #34383C;
+  border-color: #64666A; }
+
+.matportal-tags-list {
+  background-color: #4C4F56;
+  border-color: #64666A; }
+  .matportal-tags-list__group-title {
+    color: #B4B5B7; }
+  .matportal-tags-list__item:hover {
+    background-color: #404349; }
+
+.matportal-tag-settings-popup {
+  background-color: #34383C;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8); }
+  .matportal-tag-settings-popup:before {
+    border-bottom-color: #404349; }
+
+.matportal-panel {
+  background-color: #34383C; }
+  .matportal-panel a {
+    color: #71D7F7; }
+  .matportal-panel #matportal-panel-header {
+    background-color: #26292C; }
+  .matportal-panel .matportal-panel-navigation {
+    background-color: #404349; }
+    .matportal-panel .matportal-panel-navigation .matportal-panel-navigation-tab.matportal-active {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#34383C), to(#4C4F56));
+      background-image: -webkit-linear-gradient(top, #34383C, #4C4F56);
+      background-image: -o-linear-gradient(top, #34383C, #4C4F56);
+      background-image: linear-gradient(to bottom, #34383C, #4C4F56);
+      border-bottom-color: #71D7F7; }
+    .matportal-panel .matportal-panel-navigation .matportal-panel-navigation-tab a {
+      color: #E0E1E3; }
+  .matportal-panel #matportal-panel-elements-search-input {
+    background-color: #4C4F56;
+    color: #E0E1E3; }
+    .matportal-panel #matportal-panel-elements-search-input:focus {
+      background-color: #404349;
+      color: #E0E1E3; }
+      .matportal-panel #matportal-panel-elements-search-input:focus + i {
+        color: #E0E1E3; }
+    .matportal-panel #matportal-panel-elements-search-input::-webkit-search-cancel-button {
+      -webkit-appearance: none;
+      height: 8px;
+      width: 8px;
+      background: -webkit-linear-gradient(45deg, transparent 45%, #B4B5B7 45%, #B4B5B7 55%, transparent 55%), -webkit-linear-gradient(315deg, transparent 45%, #B4B5B7 45%, #B4B5B7 55%, transparent 55%);
+      background: linear-gradient(45deg, transparent 45%, #B4B5B7 45%, #B4B5B7 55%, transparent 55%), linear-gradient(135deg, transparent 45%, #B4B5B7 45%, #B4B5B7 55%, transparent 55%); }
+  .matportal-panel .matportal-element {
+    background-color: #404349; }
+    .matportal-panel .matportal-element .title,
+    .matportal-panel .matportal-element .icon {
+      color: #E0E1E3; }
+    .matportal-panel .matportal-element:hover .title,
+    .matportal-panel .matportal-element:hover .icon {
+      color: #71D7F7; }
+    .matportal-panel .matportal-element > .eicon-lock {
+      color: #64666A; }
+  .matportal-panel .widget-inside {
+    background-color: inherit; }
+  .matportal-panel #matportal-panel-footer {
+    background-color: #26292C; }
+  .matportal-panel .matportal-panel-footer-sub-menu-wrapper {
+    background-color: #34383C;
+    border-top: 1px solid #4C4F56; }
+  .matportal-panel .matportal-panel-footer-sub-menu-item {
+    background-color: #404349; }
+    .matportal-panel .matportal-panel-footer-sub-menu-item:hover, .matportal-panel .matportal-panel-footer-sub-menu-item.active {
+      background-color: #4C4F56; }
+  .matportal-panel #matportal-panel-footer-saver-options {
+    border-color: #26292C; }
+  .matportal-panel .matportal-controls-popover {
+    background-color: #4C4F56;
+    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5); }
+    .matportal-panel .matportal-controls-popover:before {
+      border-bottom-color: #4C4F56; }
+    .matportal-panel .matportal-controls-popover .matportal-control-responsive-switchers__holder {
+      background-color: #4C4F56; }
+  .matportal-panel .matportal-panel-alert {
+    background-color: #4C4F56; }
+    .matportal-panel .matportal-panel-alert.matportal-panel-alert-info {
+      background-color: #4C4F56; }
+  .matportal-panel #matportal-panel__editor__help__link {
+    color: #B4B5B7; }
+    .matportal-panel #matportal-panel__editor__help__link:hover {
+      color: #E0E1E3; }
+  .matportal-panel #matportal-panel-global-widget > * {
+    background-color: #404349; }
+  .matportal-panel #matportal-global-widget-locked-unlink {
+    border-top-color: #34383C; }
+  .matportal-panel .matportal-panel-scheme-color-system-items {
+    background-color: #34383C;
+    border-color: #64666A; }
+  .matportal-panel .matportal-panel-menu-item:not(.matportal-panel-menu-item-exit-to-dashboard) {
+    background-color: #404349; }
+    .matportal-panel .matportal-panel-menu-item:not(.matportal-panel-menu-item-exit-to-dashboard):hover {
+      background-color: #4C4F56; }
+    .matportal-panel .matportal-panel-menu-item:not(.matportal-panel-menu-item-exit-to-dashboard) a {
+      color: #E0E1E3; }
+  .matportal-panel .matportal-panel-menu-item-icon {
+    color: #B4B5B7; }
+
+.matportal-control {
+  background-color: #404349; }
+  .matportal-control.matportal-control-separator-before:before, .matportal-control.matportal-control-separator-after:after {
+    background-color: #34383C; }
+  .matportal-control.matportal-control-type-divider .matportal-control-content {
+    background-color: #404349;
+    border-color: #34383C; }
+
+.matportal-control-responsive-switchers__holder {
+  background-color: #404349; }
+
+.matportal-control-responsive-switchers.matportal-responsive-switchers-open .matportal-control-responsive-switchers__holder {
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); }
+
+a.matportal-responsive-switcher {
+  color: #E0E1E3; }
+  a.matportal-responsive-switcher:hover {
+    color: #71D7F7; }
+
+.matportal-device-desktop .matportal-responsive-switchers-open:not(:hover) .matportal-responsive-switcher.matportal-responsive-switcher-desktop {
+  color: #71D7F7; }
+
+.matportal-device-tablet .matportal-responsive-switchers-open:not(:hover) .matportal-responsive-switcher.matportal-responsive-switcher-tablet {
+  color: #71D7F7; }
+
+.matportal-device-mobile .matportal-responsive-switchers-open:not(:hover) .matportal-responsive-switcher.matportal-responsive-switcher-mobile {
+  color: #71D7F7; }
+
+.matportal-control-type-popover_toggle .matportal-control-popover-toggle-toggle-label {
+  background-color: #34383C;
+  border-color: #64666A; }
+
+.matportal-control-type-popover_toggle .matportal-control-responsive-switchers__holder {
+  background-color: #4C4F56; }
+
+.matportal-control-media__remove {
+  border-color: #64666A; }
+
+.matportal-control-media .matportal-control-input-wrapper {
+  border-color: #64666A; }
+
+.matportal-control-media .eicon-plus-circle {
+  color: #E0E1E3; }
+
+.matportal-control-media .matportal-control-media__tool {
+  background-color: #7D7E82; }
+
+.matportal-control-media__file, .matportal-control-media__file__controls {
+  background-color: #34383C;
+  border-color: #64666A; }
+
+.matportal-control-media-area, .pcr-app[data-theme=monolith] .pcr-color-palette, .pcr-button {
+  background-image: -webkit-linear-gradient(45deg, #34383C 25%, transparent 25%, transparent 75%, #34383C 75%, #34383C), -webkit-linear-gradient(45deg, #34383C 25%, transparent 25%, transparent 75%, #34383C 75%, #34383C);
+  background-image: -o-linear-gradient(45deg, #34383C 25%, transparent 25%, transparent 75%, #34383C 75%, #34383C), -o-linear-gradient(45deg, #34383C 25%, transparent 25%, transparent 75%, #34383C 75%, #34383C);
+  background-image: linear-gradient(45deg, #34383C 25%, transparent 25%, transparent 75%, #34383C 75%, #34383C), linear-gradient(45deg, #34383C 25%, transparent 25%, transparent 75%, #34383C 75%, #34383C);
+  background-color: #64666A; }
+
+.matportal-control-type-icons .matportal-control-media__preview i {
+  color: #B4B5B7; }
+
+.matportal-control-type-gallery .matportal-control-gallery-clear:hover {
+  color: #F84343; }
+
+.matportal-control-type-gallery .matportal-control-gallery-add {
+  background-color: #34383C; }
+  .matportal-control-type-gallery .matportal-control-gallery-add:hover {
+    background-color: #4C4F56; }
+
+.matportal-control-type-gallery .matportal-control-gallery-status,
+.matportal-control-type-gallery .matportal-control-media__content {
+  border-color: #64666A; }
+
+.matportal-control-type-url .matportal-control-url-more {
+  background-color: #34383C;
+  border-color: #64666A; }
+
+.matportal-control-type-url .matportal-control-url-option-input {
+  border-color: #64666A; }
+  .matportal-control-type-url .matportal-control-url-option-input:checked {
+    background-color: #64666A; }
+
+.matportal-control-type-url .matportal-input:focus ~ div {
+  border-color: #7D7E82; }
+
+.matportal-control-type-wysiwyg .matindia-editor-container {
+  border-color: #64666A; }
+
+.matportal-control-type-wysiwyg .mce-menubtn button,
+.matportal-control-type-wysiwyg .mce-ico,
+.matportal-control-type-wysiwyg .matindia-switch-editor {
+  color: #E0E1E3; }
+
+.matportal-control-type-wysiwyg .matindia-editor-tabs {
+  border-color: #7D7E82; }
+
+.matportal-control-type-wysiwyg .switch-html {
+  border-color: #7D7E82; }
+
+.matportal-control-type-wysiwyg #insert-media-button,
+.matportal-control-type-wysiwyg .html-active .switch-html,
+.matportal-control-type-wysiwyg .mce-toolbar-grp,
+.matportal-control-type-wysiwyg .quicktags-toolbar,
+.matportal-control-type-wysiwyg .tmce-active .switch-tmce {
+  background-color: #64666A; }
+
+.matportal-control-type-wysiwyg #insert-media-button {
+  color: #E0E1E3;
+  border-color: #7D7E82; }
+
+.matportal-control-type-wysiwyg .mce-toolbar .mce-btn-group .mce-btn.mce-active,
+.matportal-control-type-wysiwyg .mce-toolbar .mce-btn-group .mce-btn:active,
+.matportal-control-type-wysiwyg .qt-dfw.active,
+.matportal-control-type-wysiwyg .mce-toolbar .mce-btn-group .mce-btn:hover,
+.matportal-control-type-wysiwyg .mce-toolbar .mce-btn-group .mce-btn:focus,
+.matportal-control-type-wysiwyg .qt-dfw:hover,
+.matportal-control-type-wysiwyg .qt-dfw:focus {
+  background-color: #404349;
+  -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.08), 0 1px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.08), 0 1px 0 rgba(0, 0, 0, 0.08); }
+
+.matportal-control-type-wysiwyg .mce-toolbar .mce-btn-group .mce-btn.mce-listbox {
+  background-color: #404349;
+  border-color: #7D7E82;
+  -webkit-border-radius: 3px;
+          border-radius: 3px; }
+
+.matportal-control-type-wysiwyg .quicktags-toolbar {
+  border-color: #7D7E82; }
+
+.matportal-control-type-wysiwyg .matindia-core-ui .button,
+.matportal-control-type-wysiwyg .matindia-core-ui .button-secondary {
+  background-color: #4C4F56;
+  color: #E0E1E3;
+  border-color: #7D7E82; }
+  .matportal-control-type-wysiwyg .matindia-core-ui .button:hover,
+  .matportal-control-type-wysiwyg .matindia-core-ui .button-secondary:hover {
+    background-color: #404349;
+    border-color: #7D7E82; }
+
+.matportal-choices .matportal-choices-label, .matportal-choices .matportal-choices-label:last-child {
+  background-color: #34383C;
+  border-color: #64666A; }
+
+.matportal-choices input:checked + .matportal-choices-label {
+  background-color: #7D7E82;
+  border-color: #7D7E82; }
+
+.matportal-control-type-repeater .matportal-repeater-row-tools {
+  background-color: #64666A;
+  color: #E0E1E3; }
+  .matportal-control-type-repeater .matportal-repeater-row-tools:hover {
+    background-color: #7D7E82; }
+  .matportal-control-type-repeater .matportal-repeater-row-tools > div:not(.matportal-repeater-row-handle-sortable) {
+    background-color: #404349; }
+    .matportal-control-type-repeater .matportal-repeater-row-tools > div:not(.matportal-repeater-row-handle-sortable):hover {
+      background-color: #464950; }
+
+.matportal-control-type-repeater .matportal-repeater-row--form-step .matportal-repeater-row-tools:hover {
+  background-color: #7D7E82; }
+
+.matportal-control-type-repeater .matportal-repeater-row--form-step .matportal-repeater-row-tools div:not(.matportal-repeater-row-handle-sortable) {
+  background-color: #4C4F56; }
+  .matportal-control-type-repeater .matportal-repeater-row--form-step .matportal-repeater-row-tools div:not(.matportal-repeater-row-handle-sortable):hover {
+    background-color: #64666A; }
+
+.matportal-control-type-repeater .matportal-repeater-row-controls {
+  border-color: #64666A; }
+
+.matportal-control-type-tab {
+  background-color: #34383C;
+  border-color: #64666A; }
+  .matportal-control-type-tab:first-child {
+    border-color: #64666A; }
+  .matportal-control-type-tab.matportal-tab-active {
+    background-color: #7D7E82;
+    border-color: #7D7E82; }
+
+.matportal-control-type-slider--handles-range .matportal-slider .noUi-handle:after {
+  background-color: #E0E1E3; }
+
+.matportal-slider {
+  background-color: #64666A; }
+  .matportal-slider .noUi-handle {
+    background-color: #E0E1E3; }
+
+.matportal-control-type-dimensions li input,
+.matportal-control-type-dimensions li .matportal-link-dimensions {
+  border-color: #64666A; }
+
+.matportal-control-type-dimensions li input:focus {
+  border-color: #7D7E82; }
+
+.matportal-control-type-dimensions li:first-child input {
+  border-color: #64666A; }
+  .matportal-control-type-dimensions li:first-child input:focus {
+    border-color: #7D7E82; }
+
+.matportal-control-type-dimensions .matportal-link-dimensions.unlinked {
+  background-color: #34383C;
+  color: #E0E1E3; }
+
+.matportal-control-type-dimensions .matportal-link-dimensions:not(.unlinked) {
+  background-color: #7D7E82;
+  border-color: #7D7E82; }
+
+.matportal-control-type-switcher .matportal-switch-label {
+  background-color: #34383C; }
+  .matportal-control-type-switcher .matportal-switch-label:before {
+    text-shadow: 0 1px rgba(0, 0, 0, 0.8); }
+
+.matportal-control-type-switcher .matportal-switch-input:checked ~ .matportal-switch-label {
+  background-color: #71D7F7; }
+
+.matportal-control-type-switcher .matportal-switch-handle {
+  background-color: #E0E1E3; }
+
+.pickr {
+  background-color: #34383C;
+  border-color: #64666A; }
+
+.matportal-color-picker__dropping-area {
+  border: 1px dashed #7D7E82;
+  color: #B4B5B7; }
+  .matportal-color-picker__dropping-area.matportal-active {
+    border-color: #B4B5B7; }
+    .matportal-color-picker__dropping-area.matportal-active i {
+      color: #F84343; }
+
+.matportal-control-type-structure .matportal-control-structure-preset path {
+  fill: #34383C; }
+
+.matportal-control-type-structure .matportal-control-structure-presets input:checked + .matportal-control-structure-preset path {
+  fill: #64666A; }
+
+.matportal-control-type-structure .matportal-control-structure-reset {
+  border-top-color: #34383C; }
+
+.matportal-panel-heading {
+  border-bottom-color: #34383C; }
+  .matportal-panel-heading-toggle, .matportal-panel-heading-title {
+    color: #E0E1E3; }
+
+.select2-container:not(.select2-container--open):not(.select2-container--focus) .select2-selection--single,
+.select2-container:not(.select2-container--open):not(.select2-container--focus) .select2-selection--multiple {
+  background-color: #34383C;
+  color: #E0E1E3;
+  border-color: #64666A; }
+
+.select2-container.select2-container--open .select2-selection--single,
+.select2-container.select2-container--open .select2-selection--multiple, .select2-container.select2-container--focus .select2-selection--single,
+.select2-container.select2-container--focus .select2-selection--multiple {
+  border-color: #7D7E82; }
+
+.select2-container.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #E0E1E3; }
+
+.select2-container--default .select2-selection--single {
+  background-color: #34383C;
+  border-color: #4C4F56; }
+
+.select2-container--default .select2-selection--multiple {
+  background-color: #34383C; }
+  .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #4C4F56;
+    border-color: #4C4F56; }
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #4C4F56;
+  color: #E0E1E3; }
+
+.select2-results__option[aria-selected=true] {
+  color: #E0E1E3; }
+
+.select2-dropdown {
+  background-color: #34383C;
+  border-color: #7D7E82; }
+
+#matportal-element--promotion__dialog {
+  background-color: #404349;
+  -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5); }
+  #matportal-element--promotion__dialog:after {
+    border-right-color: #404349; }
+  #matportal-element--promotion__dialog .dialog-header {
+    color: #E0E1E3;
+    border-bottom-color: #64666A; }
+    #matportal-element--promotion__dialog .dialog-header .eicon-pro-icon {
+      color: #B4B5B7; }
+    #matportal-element--promotion__dialog .dialog-header .eicon-close {
+      color: #B4B5B7; }
+
+body.rtl #matportal-element--promotion__dialog:after {
+  border-left-color: #475158; }
+
+.dialog-type-lightbox {
+  background-color: rgba(0, 0, 0, 0.65); }
+  .dialog-type-lightbox .dialog-header {
+    color: #E0E1E3; }
+  .dialog-type-lightbox .dialog-widget-content {
+    background-color: #34383C; }
+  .dialog-type-lightbox .dialog-buttons-wrapper > .dialog-button {
+    color: #E0E1E3; }
+    .dialog-type-lightbox .dialog-buttons-wrapper > .dialog-button.dialog-ok {
+      color: #F84343; }
+    .dialog-type-lightbox .dialog-buttons-wrapper > .dialog-button:hover {
+      background-color: #4C4F56; }
+  .dialog-type-lightbox .dialog-buttons-wrapper,
+  .dialog-type-lightbox .dialog-button:first-child {
+    border-color: #4C4F56; }
+  .dialog-type-lightbox .matportal-publish__tab__title {
+    color: #E0E1E3; }
+  .dialog-type-lightbox .matportal-publish__tab.matportal-active {
+    background-color: #404349; }
+  .dialog-type-lightbox .matportal-popup__display-settings_controls_group {
+    background-color: #404349; }
+    .dialog-type-lightbox .matportal-popup__display-settings_controls_group__icon {
+      border-color: #34383C; }
+
+.matportal-templates-modal .dialog-header {
+  background-color: #26292C;
+  color: #E0E1E3;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
+
+.matportal-templates-modal__header__close--normal {
+  border-color: #7D7E82; }
+
+.matportal-templates-modal__sidebar {
+  background-color: transparent; }
+
+.matportal-templates-modal__content {
+  -webkit-box-shadow: 0 0 13px inset rgba(0, 0, 0, 0.08);
+          box-shadow: 0 0 13px inset rgba(0, 0, 0, 0.08); }
+
+.matportal-templates-modal .dialog-buttons-wrapper {
+  background-color: #34383C; }
+
+#matportal-template-library-header-menu {
+  color: #E0E1E3; }
+
+.matportal-template-library-menu-item.matportal-active {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#26292C), to(#34383C));
+  background-image: -webkit-linear-gradient(top, #26292C, #34383C);
+  background-image: -o-linear-gradient(top, #26292C, #34383C);
+  background-image: linear-gradient(to bottom, #26292C, #34383C);
+  border-color: #71D7F7; }
+
+#matportal-template-library-filter {
+  border-color: #34383C; }
+  #matportal-template-library-filter-text {
+    background-color: transparent; }
+    #matportal-template-library-filter-text:focus + i {
+      color: #E0E1E3; }
+
+label.matportal-template-library-order-label:hover,
+#matportal-template-library-filter-my-favorites:hover {
+  color: #B4B5B7; }
+
+#matportal-template-library-templates[data-template-source="remote"] .matportal-template-library-order-input:checked + .matportal-template-library-order-label {
+  color: #7D7E82; }
+
+#matportal-template-library-filter-my-favorites:checked + #matportal-template-library-filter-my-favorites-label {
+  color: #7D7E82; }
+
+#matportal-template-library-header-preview-back {
+  border-color: #4C4F56; }
+
+.matportal-template-library-template-remote {
+  background-color: #404349; }
+  .matportal-template-library-template-remote .matportal-template-library-template-name {
+    color: #E0E1E3; }
+  .matportal-template-library-template-remote:not(.matportal-template-library-template-page) .matportal-template-library-template-footer {
+    background-color: #404349; }
+
+.matportal-template-library-template-local {
+  background-color: #4C4F56; }
+  .matportal-template-library-template-local:hover {
+    background-color: #64666A; }
+  .matportal-template-library-template-local .matportal-template-library-template-controls > div:not(:hover),
+  .matportal-template-library-template-local .matportal-template-library-template-controls > div a {
+    color: #B4B5B7; }
+  .matportal-template-library-template-local .matportal-template-library-template-more {
+    background-color: #4C4F56; }
+    .matportal-template-library-template-local .matportal-template-library-template-more:before {
+      border-bottom-color: #4C4F56; }
+    .matportal-template-library-template-local .matportal-template-library-template-more:hover,
+    .matportal-template-library-template-local .matportal-template-library-template-more a:hover {
+      color: #E0E1E3; }
+    .matportal-template-library-template-local .matportal-template-library-template-more .matportal-template-library-template-delete:hover {
+      color: #F84343; }
+
+#matportal-template-library-save-template-name {
+  background-color: #26292C; }
+
+#matportal-template-library-import-form {
+  background-color: transparent; }
+  #matportal-template-library-import-form:hover {
+    background-color: rgba(0, 0, 0, 0.3); }
+
+#matportal-publish #matportal-theme-builder-conditions select,
+#matportal-publish #matportal-theme-builder-conditions input {
+  background-color: #4C4F56;
+  color: #E0E1E3; }
+
+#matportal-publish #matportal-theme-builder-conditions .matportal-control-type[data-matportal-condition-type="include"],
+#matportal-publish #matportal-theme-builder-conditions .matportal-control-type[data-matportal-condition-type="exclude"] {
+  background-color: #64666A; }
+  #matportal-publish #matportal-theme-builder-conditions .matportal-control-type[data-matportal-condition-type="include"] select,
+  #matportal-publish #matportal-theme-builder-conditions .matportal-control-type[data-matportal-condition-type="include"] option,
+  #matportal-publish #matportal-theme-builder-conditions .matportal-control-type[data-matportal-condition-type="exclude"] select,
+  #matportal-publish #matportal-theme-builder-conditions .matportal-control-type[data-matportal-condition-type="exclude"] option {
+    background-color: #404349;
+    color: #E0E1E3; }
+
+#matportal-publish #matportal-theme-builder-conditions .matportal-theme-builder-conditions-repeater-row-controls .select2-dropdown,
+#matportal-publish #matportal-theme-builder-conditions .matportal-theme-builder-conditions-repeater-row-controls .select2-container--default .select2-selection--single {
+  background-color: #4C4F56; }
+
+#matportal-icons-manager__search input {
+  background-color: #404349;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+  #matportal-icons-manager__search input:focus {
+    background-color: #4C4F56; }
+
+.matportal-icons-manager__tab__item {
+  background-color: #404349; }
+  .matportal-icons-manager__tab__item__icon, .matportal-icons-manager__tab__item__name {
+    color: #E0E1E3; }
+
+.matportal-icons-manager__tab-link {
+  color: #E0E1E3; }
+  .matportal-icons-manager__tab-link.matportal-active {
+    background-color: #404349; }
+
+.matportal-context-menu {
+  background-color: #404349;
+  border-color: #34383C; }
+  .matportal-context-menu .matportal-context-menu-list__group:not(:last-child) {
+    border-color: #34383C; }
+
+.matportal-context-menu-list__item:not(.matportal-context-menu-list__item--disabled):hover {
+  background-color: #4C4F56; }
+
+.matportal-context-menu-list__item.matportal-context-menu-list__item-delete:not(.matportal-context-menu-list__item--disabled):hover {
+  background-color: #F84343; }
+
+#matportal-navigator {
+  background-color: #34383C; }
+  #matportal-navigator__header, #matportal-navigator__inner, #matportal-navigator__footer {
+    background-color: #34383C; }
+  #matportal-navigator__header, #matportal-navigator__footer {
+    border-color: #4C4F56; }
+  #matportal-navigator__header #matportal-navigator__close,
+  #matportal-navigator__header #matportal-navigator__toggle-all {
+    color: #B4B5B7; }
+
+.matportal-navigator__element-section {
+  background-color: transparent; }
+
+.matportal-navigator__item {
+  background-color: #404349;
+  border-color: #34383C; }
+  .matportal-navigator__item:hover {
+    background-color: #4c4f57; }
+
+.matportal-navigator__element__indicator {
+  color: #E0E1E3;
+  background-color: #4C4F56; }
+  .matportal-navigator__element__indicator:hover {
+    color: #B4B5B7; }
+  .matportal-navigator__element__indicator:not(:first-child) {
+    border-color: #34383C; }
+
+.matportal-navigator__element-column {
+  background-color: #474a51; }
+
+.matportal-navigator__element:not(.matportal-navigator__element--hidden) > .matportal-navigator__item.matportal-editing {
+  background-color: #4c4f57; }
+  .matportal-navigator__element:not(.matportal-navigator__element--hidden) > .matportal-navigator__item.matportal-editing .matportal-navigator__element__toggle {
+    color: #71D7F7; }
+
+.matportal-navigator__elements .matportal-empty-view {
+  border-color: #34383C; }
+
+.matportal-navigator__elements .ui-sortable-helper {
+  background-color: #34383C;
+  border-color: #34383C; }
+
+.matportal-navigator__elements .ui-sortable-placeholder {
+  background-color: #34383C; }
+
+#matportal-panel-history:not(.matportal-empty),
+.matportal-panel .matportal-panel-box,
+.matportal-panel .matportal-panel-scheme-buttons {
+  background-color: #404349; }
+
+.matportal-revision-item__wrapper,
+.matportal-history-item {
+  background-color: #4C4F56;
+  border-color: #4C4F56; }
+  .matportal-revision-item__wrapper:hover,
+  .matportal-history-item:hover {
+    background-color: #64666A; }
+
+#matportal-finder__search__input {
+  color: #E0E1E3; }
+
+.matportal-finder__results__category__title {
+  background-color: #26292C;
+  color: #E0E1E3; }
+
+.matportal-finder__results__item__title {
+  color: #E0E1E3; }
+
+.matportal-finder__results__item.matportal-active {
+  background-color: #404349; }
+
+.matportal-hotkeys__list {
+  background-color: #4C4F56; }
+
+.matportal-hotkeys__item {
+  border-color: #64666A; }
+  .matportal-hotkeys__item--shortcut span {
+    background-color: #64666A; }
+
+.media-modal {
+  color: #6d7882; }
+
+#matindia-link {
+  color: #6d7882; }
+  #matindia-link input,
+  #matindia-link select,
+  #matindia-link textarea,
+  #matindia-link .matportal-input-style {
+    color: #6d7882;
+    background-color: transparent; }
+    #matindia-link input:not(:focus),
+    #matindia-link select:not(:focus),
+    #matindia-link textarea:not(:focus),
+    #matindia-link .matportal-input-style:not(:focus) {
+      border-color: #d5dadf; }
+    #matindia-link input:focus,
+    #matindia-link select:focus,
+    #matindia-link textarea:focus,
+    #matindia-link .matportal-input-style:focus {
+      border-color: #a4afb7; }
+
+.ui-autocomplete {
+  color: #6d7882; }
+
+.matportal-color-picker__swatch-tool {
+  background-color: #E0E1E3; }
+  .matportal-color-picker__swatch-tool i {
+    color: #64666A; }
+
+.matportal-nerd-box-icon {
+  -webkit-filter: contrast(0.8);
+          filter: contrast(0.8); }
+/*# sourceMappingURL=editor-dark-mode.css.map */

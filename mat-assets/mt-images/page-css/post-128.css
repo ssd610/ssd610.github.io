@@ -1,0 +1,14 @@
+.matportal-128 .matportal-element.matportal-element-177596c > .matportal-element-populated{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.matportal-128 .matportal-element.matportal-element-c69c600 .matportal-icon-list-icon i{font-size:14px;}.matportal-128 .matportal-element.matportal-element-c69c600 .matportal-icon-list-icon svg{width:14px;}.matportal-128 .matportal-element.matportal-element-c69c600 .matportal-icon-list-text{color:#000000;}@media(max-width:1024px){.matportal-128 .matportal-element.matportal-element-c69c600 .matportal-icon-list-items:not(.matportal-inline-items) .matportal-icon-list-item:not(:last-child){padding-bottom:calc(10px/2);}.matportal-128 .matportal-element.matportal-element-c69c600 .matportal-icon-list-items:not(.matportal-inline-items) .matportal-icon-list-item:not(:first-child){margin-top:calc(10px/2);}.matportal-128 .matportal-element.matportal-element-c69c600 .matportal-icon-list-items.matportal-inline-items .matportal-icon-list-item{margin-right:calc(10px/2);margin-left:calc(10px/2);}.matportal-128 .matportal-element.matportal-element-c69c600 .matportal-icon-list-items.matportal-inline-items{margin-right:calc(-10px/2);margin-left:calc(-10px/2);}body.rtl .matportal-128 .matportal-element.matportal-element-c69c600 .matportal-icon-list-items.matportal-inline-items .matportal-icon-list-item:after{left:calc(-10px/2);}body:not(.rtl) .matportal-128 .matportal-element.matportal-element-c69c600 .matportal-icon-list-items.matportal-inline-items .matportal-icon-list-item:after{right:calc(-10px/2);}.matportal-128 .matportal-element.matportal-element-c69c600 .matportal-icon-list-item{font-size:13px;}}@media(max-width:767px){.matportal-128 .matportal-element.matportal-element-c69c600 .matportal-icon-list-item{font-size:13px;}}/* Start custom CSS for icon-list, class: .matportal-element-c69c600 */.matportal-128 .matportal-element.matportal-element-c69c600 .matportal-icon-list-text {
+    width: 120px;
+    padding: 4px 0px;
+    border: 1px solid #632556;
+    border-radius: 4px;
+    background: #F6F6F6;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 767px) {
+    .matportal-128 .matportal-element.matportal-element-c69c600 .matportal-icon-list-text {
+        width: 95px;
+    }
+}/* End custom CSS */

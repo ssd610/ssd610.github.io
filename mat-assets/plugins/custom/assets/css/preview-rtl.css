@@ -1,0 +1,52 @@
+.matrimony-document-handle {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  z-index: 11;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #fcb92c;
+  padding: 5px 10px;
+  font-size: 11px;
+  color: #fff;
+  border-radius: 0 0 3px 3px;
+  cursor: pointer; }
+  .matrimony-document-handle:before, .matrimony-document-handle:after {
+    content: '';
+    position: absolute;
+    border: solid transparent; }
+  .matrimony-document-handle:before {
+    left: calc(100% - 1px);
+    border-left-color: #fcb92c;
+    border-width: 0 15px 26px 0; }
+  .matrimony-document-handle:after {
+    right: calc(100% - 1px);
+    border-right-color: #fcb92c;
+    border-width: 0 0 26px 15px; }
+  .matrimony-document-handle .eicon-edit {
+    margin-left: 5px; }
+
+.matrimony-editor-active .matportal {
+  position: relative; }
+  .matrimony-editor-active .matportal:not(.matrimony-edit-mode):hover {
+    -webkit-box-shadow: 0 0 0 1px #fcb92c;
+            box-shadow: 0 0 0 1px #fcb92c; }
+    .matrimony-editor-active .matportal:not(.matrimony-edit-mode):hover .matrimony-document-handle {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+  .matrimony-editor-active .matportal.loading {
+    opacity: 0.5; }
+  .matrimony-editor-active .matportal[data-matrimony-type="single"] > .matrimony-document-handle {
+    -webkit-transform: translateX(-50%) translateY(-100%);
+        -ms-transform: translateX(-50%) translateY(-100%);
+            transform: translateX(-50%) translateY(-100%);
+    border-radius: 3px 3px 0 0; }
+    .matrimony-editor-active .matportal[data-matrimony-type="single"] > .matrimony-document-handle:before, .matrimony-editor-active .matportal[data-matrimony-type="single"] > .matrimony-document-handle:after {
+      border-width: 26px 15px 0 0; }
+/*# sourceMappingURL=preview-rtl.css.map */

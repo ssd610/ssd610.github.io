@@ -1,0 +1,8 @@
+body.matportal-kit-10{font-family:"Plus Jakarta Sans", Sans-serif;}body.matportal-kit-10 a{font-family:"Plus Jakarta Sans", Sans-serif;}body.matportal-kit-10 h1{font-family:"Plus Jakarta Sans", Sans-serif;}body.matportal-kit-10 h2{font-family:"Plus Jakarta Sans", Sans-serif;}body.matportal-kit-10 h3{font-family:"Plus Jakarta Sans", Sans-serif;}body.matportal-kit-10 h4{font-family:"Plus Jakarta Sans", Sans-serif;}body.matportal-kit-10 h5{font-family:"Plus Jakarta Sans", Sans-serif;}body.matportal-kit-10 h6{font-family:"Plus Jakarta Sans", Sans-serif;}body.matportal-kit-10 button,body.matportal-kit-10 input[type="button"],body.matportal-kit-10 input[type="submit"],body.matportal-kit-10 .matportal-button{font-family:"Plus Jakarta Sans", Sans-serif;}body.matportal-kit-10 label{font-family:"Plus Jakarta Sans", Sans-serif;}body.matportal-kit-10 input:not([type="button"]):not([type="submit"]),body.matportal-kit-10 textarea,body.matportal-kit-10 .matportal-field-textual{font-family:"Plus Jakarta Sans", Sans-serif;}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Plus Jakarta Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('/mat-assets/mt-images/PlusJakartaSans-Regular.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
