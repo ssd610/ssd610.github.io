@@ -15419,7 +15419,7 @@ var EditorBase = /*#__PURE__*/function (_Marionette$Applicati) {
 
       setTimeout(console.log.bind(console, text, style)); // eslint-disable-line
 
-      text = '%cLove using matportal? Join our growing community of matportal developers: %chttps://github.com/basic/matportal';
+      text = '%cLove using matportal? Join our growing community of matportal developers: %chttps://github.com/matportal/matportal';
       setTimeout(console.log.bind(console, text, 'color: #9B0A46', '')); // eslint-disable-line
     }
   }, {
@@ -29254,7 +29254,7 @@ var URL = /*#__PURE__*/function (_BaseMultiple) {
 
       var $mainInput = this.ui.mainInput,
           positionBase = matportalCommon.config.isRTL ? 'right' : 'left';
-      var last, cache; // Based on /cores/js/tinymce/plugins/wplink/plugin.js.
+      var last, cache; // Based on /matindia-includes/js/tinymce/plugins/wplink/plugin.js.
 
       $mainInput.autocomplete({
         source: function source(request, response) {
@@ -30410,7 +30410,7 @@ PanelMenuPageView = Marionette.CompositeView.extend({
 
     matportal.modules.layouts.panel.pages.menu.Menu.addItem({
       name: 'exit-to-dashboard',
-      icon: 'eicon-matdesign',
+      icon: 'eicon-wordpress',
       title: matportal.translate('exit_to_dashboard'),
       type: 'link',
       link: matportal.config.document.urls.exit_to_dashboard

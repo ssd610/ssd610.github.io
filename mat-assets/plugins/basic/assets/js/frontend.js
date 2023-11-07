@@ -7110,7 +7110,7 @@ var Progress = /*#__PURE__*/function (_matportalModules$fro) {
     value: function getDefaultSettings() {
       return {
         selectors: {
-          progressNumber: '.matportal-progress-bar'
+          progressNumber: '.matrimony-customgress-bar'
         }
       };
     }

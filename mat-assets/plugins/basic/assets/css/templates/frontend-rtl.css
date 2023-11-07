@@ -1771,14 +1771,14 @@ body.matportal-page .matportal-widget-menu-anchor {
 .matportal-widget-progress {
   text-align: right; }
 
-.matportal-progress-wrapper {
+.matrimony-customgress-wrapper {
   position: relative;
   background-color: #eeeeee;
   color: #ffffff;
   height: 100%;
   border-radius: 2px; }
 
-.matportal-progress-bar {
+.matrimony-customgress-bar {
   display: flex;
   background-color: #818a91;
   width: 0;
@@ -1788,33 +1788,33 @@ body.matportal-page .matportal-widget-menu-anchor {
   border-radius: 2px;
   transition: width 1s ease-in-out; }
 
-.matportal-progress-text {
+.matrimony-customgress-text {
   flex-grow: 1;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   padding-right: 15px; }
 
-.matportal-progress-percentage {
+.matrimony-customgress-percentage {
   padding-left: 15px; }
 
-.matportal-widget-progress .matportal-progress-wrapper.progress-info .matportal-progress-bar {
+.matportal-widget-progress .matrimony-customgress-wrapper.progress-info .matrimony-customgress-bar {
   background-color: #5bc0de; }
 
-.matportal-widget-progress .matportal-progress-wrapper.progress-success .matportal-progress-bar {
+.matportal-widget-progress .matrimony-customgress-wrapper.progress-success .matrimony-customgress-bar {
   background-color: #5cb85c; }
 
-.matportal-widget-progress .matportal-progress-wrapper.progress-warning .matportal-progress-bar {
+.matportal-widget-progress .matrimony-customgress-wrapper.progress-warning .matrimony-customgress-bar {
   background-color: #f0ad4e; }
 
-.matportal-widget-progress .matportal-progress-wrapper.progress-danger .matportal-progress-bar {
+.matportal-widget-progress .matrimony-customgress-wrapper.progress-danger .matrimony-customgress-bar {
   background-color: #d9534f; }
 
-.matportal-progress .matportal-title {
+.matrimony-customgress .matportal-title {
   display: block; }
 
 @media (max-width: matportal_SCREEN_SM_MAX) {
-  .matportal-progress-text {
+  .matrimony-customgress-text {
     padding-right: 10px; } }
 
 .matportal-social-icons-wrapper {
@@ -1940,7 +1940,7 @@ body.matportal-page .matportal-widget-menu-anchor {
     background-color: #7bb32e; }
   .matportal-social-icon-whatsapp {
     background-color: #25d366; }
-  .matportal-social-icon-matdesign {
+  .matportal-social-icon-wordpress {
     background-color: #21759b; }
   .matportal-social-icon-xing {
     background-color: #026466; }

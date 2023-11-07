@@ -1,5 +1,9 @@
-.matportal-205 .matportal-element.matportal-element-f20e771{padding:10px 0px 60px 0px;}.matportal-205 .matportal-element.matportal-element-3c28a50{text-align:center;}.matportal-205 .matportal-element.matportal-element-3c28a50 > .matportal-widget-container{padding:10px 10px 20px 10px;}.matportal-205 .matportal-element.matportal-element-cd90ba4 .matportal-text-editor{text-align:center;}.matportal-205 .matportal-element.matportal-element-7f899a1 .matportal-toggle .matportal-tab-title{border-width:0px;}.matportal-205 .matportal-element.matportal-element-7f899a1 .matportal-toggle .matportal-tab-content{border-width:0px;}@media(max-width:1024px){.matportal-205 .matportal-element.matportal-element-f20e771{padding:0px 0px 40px 0px;}}@media(max-width:767px){.matportal-205 .matportal-element.matportal-element-3c28a50 .matportal-heading-title{font-size:24px;}}/* Start custom CSS for toggle, class: .matportal-element-7f899a1 */.matportal-toggle-item {
+.matportal-205 .matportal-element.matportal-element-f20e771{padding:10px 0px 60px 0px;}.matportal-205 .matportal-element.matportal-element-3c28a50{text-align:center;}.matportal-205 .matportal-element.matportal-element-3c28a50 .matportal-heading-title{font-weight:600;}.matportal-205 .matportal-element.matportal-element-3c28a50 > .matportal-widget-container{padding:10px 10px 20px 10px;}.matportal-205 .matportal-element.matportal-element-cd90ba4 .matportal-text-editor{text-align:center;}@media(max-width:1024px){.matportal-205 .matportal-element.matportal-element-f20e771{padding:0px 0px 40px 0px;}}@media(max-width:767px){.matportal-205 .matportal-element.matportal-element-3c28a50 .matportal-heading-title{font-size:24px;}}/* Start custom CSS for accordion, class: .matportal-element-d18b7a3 */.matportal-accordion-item {
     margin-bottom: 15px;
-    border: 2px solid #D5D5D5;
+    border: 2px solid #D5D5D5 !important;
     border-radius: 8px;
+}
+
+.matportal-tab-content {
+    border: none !important;
 }/* End custom CSS */

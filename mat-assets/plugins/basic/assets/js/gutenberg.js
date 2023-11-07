@@ -626,8 +626,8 @@ __webpack_require__(17);
       self.cache.$switchModeButton.on('click', function () {
         if (self.ismatportalMode) {
           matportalCommon.dialogsManager.createWidget('confirm', {
-            message: matportalAdmin.translate('back_to_matdesign_editor_message'),
-            headerMessage: matportalAdmin.translate('back_to_matdesign_editor_header'),
+            message: matportalAdmin.translate('back_to_wordpress_editor_message'),
+            headerMessage: matportalAdmin.translate('back_to_wordpress_editor_header'),
             strings: {
               confirm: matportalAdmin.translate('yes'),
               cancel: matportalAdmin.translate('cancel')

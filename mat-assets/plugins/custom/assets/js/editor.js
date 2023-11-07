@@ -1,3 +1,4 @@
+/*! matrimony-custom - v2.8.5 - 08-03-2020 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -321,7 +322,7 @@ var matportalPro = Marionette.Application.extend({
 
 		matportalPro.libraryRemoveGetProButtons();
 
-		matportal.debug.addURLToWatch('matportal-pro/assets');
+		matportal.debug.addURLToWatch('matrimony-custom/assets');
 	},
 
 	onmatportalPreviewLoaded: function onmatportalPreviewLoaded() {
@@ -330,7 +331,7 @@ var matportalPro = Marionette.Application.extend({
 
 	libraryRemoveGetProButtons: function libraryRemoveGetProButtons() {
 		matportal.hooks.addFilter('matportal/editor/template-library/template/action-button', function (viewID, templateData) {
-			return templateData.isPro && !matportalPro.config.isActive ? '#tmpl-matportal-pro-template-library-activate-license-button' : '#tmpl-matportal-template-library-insert-button';
+			return templateData.isPro && !matportalPro.config.isActive ? '#tmpl-matrimony-custom-template-library-activate-license-button' : '#tmpl-matportal-template-library-insert-button';
 		});
 	},
 

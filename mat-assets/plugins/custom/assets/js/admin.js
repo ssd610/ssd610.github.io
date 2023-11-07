@@ -1,3 +1,4 @@
+/*! matrimony-custom - v2.8.5 - 08-03-2020 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -812,7 +813,7 @@ module.exports = function () {
 		this.cache = {
 			$button: jQuery('#matportal_pro_typekit_validate_button'),
 			$kitIdField: jQuery('#matportal_typekit-kit-id'),
-			$dataLabelSpan: jQuery('.matportal-pro-typekit-data')
+			$dataLabelSpan: jQuery('.matrimony-custom-typekit-data')
 		};
 	};
 	self.bindEvents = function () {

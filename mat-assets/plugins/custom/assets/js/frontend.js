@@ -1,3 +1,4 @@
+/*! matrimony-custom - v2.8.5 - 08-03-2020 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};

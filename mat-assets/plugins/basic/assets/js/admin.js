@@ -931,8 +931,8 @@ __webpack_require__(17);
 
         if (self.ismatportalMode()) {
           matportalCommon.dialogsManager.createWidget('confirm', {
-            message: self.translate('back_to_matdesign_editor_message'),
-            headerMessage: self.translate('back_to_matdesign_editor_header'),
+            message: self.translate('back_to_wordpress_editor_message'),
+            headerMessage: self.translate('back_to_wordpress_editor_header'),
             strings: {
               confirm: self.translate('yes'),
               cancel: self.translate('cancel')

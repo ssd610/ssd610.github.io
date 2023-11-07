@@ -1,4 +1,4 @@
-
+/*! matrimony-custom - v2.8.5 - 08-03-2020 */
 @charset "UTF-8";
 .matportal-bg-transform .matportal-bg {
   will-change: transform; }
@@ -1618,7 +1618,7 @@ body.rtl .matportal-widget-slides .matportal-swiper-button-prev {
 .matportal-share-buttons--color-official.matportal-share-buttons--skin-flat .matportal-share-btn_whatsapp, .matportal-share-buttons--color-official.matportal-share-buttons--skin-gradient .matportal-share-btn_whatsapp {
   background-color: #25d366; }
 
-.matportal-share-buttons--color-official.matportal-share-buttons--skin-flat .matportal-share-btn_matdesign, .matportal-share-buttons--color-official.matportal-share-buttons--skin-gradient .matportal-share-btn_matdesign {
+.matportal-share-buttons--color-official.matportal-share-buttons--skin-flat .matportal-share-btn_wordpress, .matportal-share-buttons--color-official.matportal-share-buttons--skin-gradient .matportal-share-btn_wordpress {
   background-color: #21759b; }
 
 .matportal-share-buttons--color-official.matportal-share-buttons--skin-flat .matportal-share-btn_xing, .matportal-share-buttons--color-official.matportal-share-buttons--skin-gradient .matportal-share-btn_xing {
@@ -1690,7 +1690,7 @@ body.rtl .matportal-widget-slides .matportal-swiper-button-prev {
 .matportal-share-buttons--color-official.matportal-share-buttons--skin-framed .matportal-share-btn_whatsapp, .matportal-share-buttons--color-official.matportal-share-buttons--skin-boxed .matportal-share-btn_whatsapp {
   color: #25d366; }
 
-.matportal-share-buttons--color-official.matportal-share-buttons--skin-framed .matportal-share-btn_matdesign, .matportal-share-buttons--color-official.matportal-share-buttons--skin-boxed .matportal-share-btn_matdesign {
+.matportal-share-buttons--color-official.matportal-share-buttons--skin-framed .matportal-share-btn_wordpress, .matportal-share-buttons--color-official.matportal-share-buttons--skin-boxed .matportal-share-btn_wordpress {
   color: #21759b; }
 
 .matportal-share-buttons--color-official.matportal-share-buttons--skin-framed .matportal-share-btn_xing, .matportal-share-buttons--color-official.matportal-share-buttons--skin-boxed .matportal-share-btn_xing {
@@ -1762,7 +1762,7 @@ body.rtl .matportal-widget-slides .matportal-swiper-button-prev {
 .matportal-share-buttons--color-official.matportal-share-buttons--skin-boxed .matportal-share-btn_whatsapp .matportal-share-btn__icon, .matportal-share-buttons--color-official.matportal-share-buttons--skin-minimal .matportal-share-btn_whatsapp .matportal-share-btn__icon {
   background-color: #25d366; }
 
-.matportal-share-buttons--color-official.matportal-share-buttons--skin-boxed .matportal-share-btn_matdesign .matportal-share-btn__icon, .matportal-share-buttons--color-official.matportal-share-buttons--skin-minimal .matportal-share-btn_matdesign .matportal-share-btn__icon {
+.matportal-share-buttons--color-official.matportal-share-buttons--skin-boxed .matportal-share-btn_wordpress .matportal-share-btn__icon, .matportal-share-buttons--color-official.matportal-share-buttons--skin-minimal .matportal-share-btn_wordpress .matportal-share-btn__icon {
   background-color: #21759b; }
 
 .matportal-share-buttons--color-official.matportal-share-buttons--skin-boxed .matportal-share-btn_xing .matportal-share-btn__icon, .matportal-share-buttons--color-official.matportal-share-buttons--skin-minimal .matportal-share-btn_xing .matportal-share-btn__icon {
@@ -2214,8 +2214,8 @@ body.rtl.woocommerce-page div.product .matportal-widget-woocommerce-product-imag
             box-shadow: none;
     margin-top: -1px; }
 
-.woocommerce div.product.matportal .matportal-product-price-block-yes .price del,
-.woocommerce div.product.matportal .matportal-product-price-block-yes .price ins {
+.woocommerce div.product.matportal .matrimony-customduct-price-block-yes .price del,
+.woocommerce div.product.matportal .matrimony-customduct-price-block-yes .price ins {
   display: block; }
 
 .matportal-widget-woocommerce-product-meta .detail-container {
@@ -2282,204 +2282,204 @@ body.rtl.woocommerce-page div.product .matportal-widget-woocommerce-product-imag
 .woocommerce div.product.matportal .star-rating {
   margin-top: 0; }
 
-.matportal-product-rating--align-left .woocommerce-product-rating {
+.matrimony-customduct-rating--align-left .woocommerce-product-rating {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start; }
 
-.matportal-product-rating--align-right .woocommerce-product-rating {
+.matrimony-customduct-rating--align-right .woocommerce-product-rating {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end; }
 
-.matportal-product-rating--align-center .woocommerce-product-rating {
+.matrimony-customduct-rating--align-center .woocommerce-product-rating {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
 
-.matportal-product-rating--align-justify .woocommerce-product-rating .woocommerce-review-link {
+.matrimony-customduct-rating--align-justify .woocommerce-product-rating .woocommerce-review-link {
   margin-left: auto; }
 
 @media (min-width: 1025px) {
-  .matportal-element.matrimony-products-grid ul.products.columns-2 {
+  .matportal-element.matrimony-customducts-grid ul.products.columns-2 {
     grid-template-columns: repeat(2, 1fr); }
-  .matportal-element.matrimony-products-grid .woocommerce.columns-2 ul.products {
+  .matportal-element.matrimony-customducts-grid .woocommerce.columns-2 ul.products {
     grid-template-columns: repeat(2, 1fr); }
-  .matportal-element.matrimony-products-grid ul.products.columns-3 {
+  .matportal-element.matrimony-customducts-grid ul.products.columns-3 {
     grid-template-columns: repeat(3, 1fr); }
-  .matportal-element.matrimony-products-grid .woocommerce.columns-3 ul.products {
+  .matportal-element.matrimony-customducts-grid .woocommerce.columns-3 ul.products {
     grid-template-columns: repeat(3, 1fr); }
-  .matportal-element.matrimony-products-grid ul.products.columns-4 {
+  .matportal-element.matrimony-customducts-grid ul.products.columns-4 {
     grid-template-columns: repeat(4, 1fr); }
-  .matportal-element.matrimony-products-grid .woocommerce.columns-4 ul.products {
+  .matportal-element.matrimony-customducts-grid .woocommerce.columns-4 ul.products {
     grid-template-columns: repeat(4, 1fr); }
-  .matportal-element.matrimony-products-grid ul.products.columns-5 {
+  .matportal-element.matrimony-customducts-grid ul.products.columns-5 {
     grid-template-columns: repeat(5, 1fr); }
-  .matportal-element.matrimony-products-grid .woocommerce.columns-5 ul.products {
+  .matportal-element.matrimony-customducts-grid .woocommerce.columns-5 ul.products {
     grid-template-columns: repeat(5, 1fr); }
-  .matportal-element.matrimony-products-grid ul.products.columns-6 {
+  .matportal-element.matrimony-customducts-grid ul.products.columns-6 {
     grid-template-columns: repeat(6, 1fr); }
-  .matportal-element.matrimony-products-grid .woocommerce.columns-6 ul.products {
+  .matportal-element.matrimony-customducts-grid .woocommerce.columns-6 ul.products {
     grid-template-columns: repeat(6, 1fr); }
-  .matportal-element.matrimony-products-grid ul.products.columns-7 {
+  .matportal-element.matrimony-customducts-grid ul.products.columns-7 {
     grid-template-columns: repeat(7, 1fr); }
-  .matportal-element.matrimony-products-grid .woocommerce.columns-7 ul.products {
+  .matportal-element.matrimony-customducts-grid .woocommerce.columns-7 ul.products {
     grid-template-columns: repeat(7, 1fr); }
-  .matportal-element.matrimony-products-grid ul.products.columns-8 {
+  .matportal-element.matrimony-customducts-grid ul.products.columns-8 {
     grid-template-columns: repeat(8, 1fr); }
-  .matportal-element.matrimony-products-grid .woocommerce.columns-8 ul.products {
+  .matportal-element.matrimony-customducts-grid .woocommerce.columns-8 ul.products {
     grid-template-columns: repeat(8, 1fr); }
-  .matportal-element.matrimony-products-grid ul.products.columns-9 {
+  .matportal-element.matrimony-customducts-grid ul.products.columns-9 {
     grid-template-columns: repeat(9, 1fr); }
-  .matportal-element.matrimony-products-grid .woocommerce.columns-9 ul.products {
+  .matportal-element.matrimony-customducts-grid .woocommerce.columns-9 ul.products {
     grid-template-columns: repeat(9, 1fr); }
-  .matportal-element.matrimony-products-grid ul.products.columns-10 {
+  .matportal-element.matrimony-customducts-grid ul.products.columns-10 {
     grid-template-columns: repeat(10, 1fr); }
-  .matportal-element.matrimony-products-grid .woocommerce.columns-10 ul.products {
+  .matportal-element.matrimony-customducts-grid .woocommerce.columns-10 ul.products {
     grid-template-columns: repeat(10, 1fr); }
-  .matportal-element.matrimony-products-grid ul.products.columns-11 {
+  .matportal-element.matrimony-customducts-grid ul.products.columns-11 {
     grid-template-columns: repeat(11, 1fr); }
-  .matportal-element.matrimony-products-grid .woocommerce.columns-11 ul.products {
+  .matportal-element.matrimony-customducts-grid .woocommerce.columns-11 ul.products {
     grid-template-columns: repeat(11, 1fr); }
-  .matportal-element.matrimony-products-grid ul.products.columns-12 {
+  .matportal-element.matrimony-customducts-grid ul.products.columns-12 {
     grid-template-columns: repeat(12, 1fr); }
-  .matportal-element.matrimony-products-grid .woocommerce.columns-12 ul.products {
+  .matportal-element.matrimony-customducts-grid .woocommerce.columns-12 ul.products {
     grid-template-columns: repeat(12, 1fr); } }
 
 @media (max-width: 1024px) {
-  .matportal-element.matrimony-products-grid ul.products {
+  .matportal-element.matrimony-customducts-grid ul.products {
     grid-template-columns: repeat(3, 1fr); } }
 
 @media (max-width: 767px) {
-  .matportal-element.matrimony-products-grid ul.products {
+  .matportal-element.matrimony-customducts-grid ul.products {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media (min-width: 1025px) {
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-1 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-1 ul.products {
     grid-template-columns: repeat(1, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-2 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-2 ul.products {
     grid-template-columns: repeat(2, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-3 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-3 ul.products {
     grid-template-columns: repeat(3, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-4 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-4 ul.products {
     grid-template-columns: repeat(4, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-5 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-5 ul.products {
     grid-template-columns: repeat(5, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-6 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-6 ul.products {
     grid-template-columns: repeat(6, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-7 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-7 ul.products {
     grid-template-columns: repeat(7, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-8 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-8 ul.products {
     grid-template-columns: repeat(8, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-9 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-9 ul.products {
     grid-template-columns: repeat(9, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-10 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-10 ul.products {
     grid-template-columns: repeat(10, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-11 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-11 ul.products {
     grid-template-columns: repeat(11, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-12 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-12 ul.products {
     grid-template-columns: repeat(12, 1fr); } }
 
 @media (max-width: 1024px) {
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-tablet-1 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-tablet-1 ul.products {
     grid-template-columns: repeat(1, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-tablet-2 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-tablet-2 ul.products {
     grid-template-columns: repeat(2, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-tablet-3 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-tablet-3 ul.products {
     grid-template-columns: repeat(3, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-tablet-4 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-tablet-4 ul.products {
     grid-template-columns: repeat(4, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-tablet-5 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-tablet-5 ul.products {
     grid-template-columns: repeat(5, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-tablet-6 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-tablet-6 ul.products {
     grid-template-columns: repeat(6, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-tablet-7 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-tablet-7 ul.products {
     grid-template-columns: repeat(7, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-tablet-8 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-tablet-8 ul.products {
     grid-template-columns: repeat(8, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-tablet-9 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-tablet-9 ul.products {
     grid-template-columns: repeat(9, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-tablet-10 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-tablet-10 ul.products {
     grid-template-columns: repeat(10, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-tablet-11 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-tablet-11 ul.products {
     grid-template-columns: repeat(11, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-tablet-12 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-tablet-12 ul.products {
     grid-template-columns: repeat(12, 1fr); } }
 
 @media (max-width: 767px) {
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-mobile-1 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-mobile-1 ul.products {
     grid-template-columns: repeat(1, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-mobile-2 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-mobile-2 ul.products {
     grid-template-columns: repeat(2, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-mobile-3 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-mobile-3 ul.products {
     grid-template-columns: repeat(3, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-mobile-4 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-mobile-4 ul.products {
     grid-template-columns: repeat(4, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-mobile-5 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-mobile-5 ul.products {
     grid-template-columns: repeat(5, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-mobile-6 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-mobile-6 ul.products {
     grid-template-columns: repeat(6, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-mobile-7 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-mobile-7 ul.products {
     grid-template-columns: repeat(7, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-mobile-8 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-mobile-8 ul.products {
     grid-template-columns: repeat(8, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-mobile-9 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-mobile-9 ul.products {
     grid-template-columns: repeat(9, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-mobile-10 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-mobile-10 ul.products {
     grid-template-columns: repeat(10, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-mobile-11 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-mobile-11 ul.products {
     grid-template-columns: repeat(11, 1fr); }
-  .matportal-element.matrimony-products-grid.matrimony-products-columns-mobile-12 ul.products {
+  .matportal-element.matrimony-customducts-grid.matrimony-customducts-columns-mobile-12 ul.products {
     grid-template-columns: repeat(12, 1fr); } }
 
-.matportal-element.matrimony-products-grid ul.products {
+.matportal-element.matrimony-customducts-grid ul.products {
   display: grid;
   margin: 0;
   grid-column-gap: 20px;
   grid-row-gap: 40px; }
-  .matportal-element.matrimony-products-grid ul.products:before, .matportal-element.matrimony-products-grid ul.products:after {
+  .matportal-element.matrimony-customducts-grid ul.products:before, .matportal-element.matrimony-customducts-grid ul.products:after {
     content: none;
     display: none; }
-  .matportal-element.matrimony-products-grid ul.products li.product {
+  .matportal-element.matrimony-customducts-grid ul.products li.product {
     width: auto;
     padding: 0;
     margin: 0;
     float: none; }
-    .matportal-element.matrimony-products-grid ul.products li.product .onsale {
+    .matportal-element.matrimony-customducts-grid ul.products li.product .onsale {
       padding: 0;
       display: none; }
-    .matportal-element.matrimony-products-grid ul.products li.product a.woocommerce-loop-product__link {
+    .matportal-element.matrimony-customducts-grid ul.products li.product a.woocommerce-loop-product__link {
       display: block;
       position: relative; }
 
-.matrimony-products-grid:not(.show-heading-yes) .products > h2 {
+.matrimony-customducts-grid:not(.show-heading-yes) .products > h2 {
   display: none; }
 
-.matrimony-products-grid nav.woocommerce-pagination {
+.matrimony-customducts-grid nav.woocommerce-pagination {
   margin-top: 40px; }
 
-.matrimony-products-grid:not(.matportal-show-pagination-border-yes) nav.woocommerce-pagination ul {
+.matrimony-customducts-grid:not(.matportal-show-pagination-border-yes) nav.woocommerce-pagination ul {
   border: none 0; }
 
-.matrimony-products-grid:not(.matportal-show-pagination-border-yes) nav.woocommerce-pagination ul li {
+.matrimony-customducts-grid:not(.matportal-show-pagination-border-yes) nav.woocommerce-pagination ul li {
   border-right: none 0;
   border-left: none 0; }
 
-.matportal-product-loop-item--align-left ul.products li.product .star-rating {
+.matrimony-customduct-loop-item--align-left ul.products li.product .star-rating {
   margin-right: auto; }
 
-.matportal-product-loop-item--align-right ul.products li.product .star-rating {
+.matrimony-customduct-loop-item--align-right ul.products li.product .star-rating {
   margin-left: auto; }
 
-.matportal-product-loop-item--align-center ul.products li.product .star-rating {
+.matrimony-customduct-loop-item--align-center ul.products li.product .star-rating {
   margin-right: auto;
   margin-left: auto; }
 
-.woocommerce .matportal-element.matrimony-products-grid ul.products li.product {
+.woocommerce .matportal-element.matrimony-customducts-grid ul.products li.product {
   width: auto; }
 
-.woocommerce div.product .matportal-element.matrimony-products-grid .related.products ul.products li.product,
-.woocommerce div.product .matportal-element.matrimony-products-grid .upsells.products ul.products li.product {
+.woocommerce div.product .matportal-element.matrimony-customducts-grid .related.products ul.products li.product,
+.woocommerce div.product .matportal-element.matrimony-customducts-grid .upsells.products ul.products li.product {
   width: auto; }
 
 .matportal.product .woocommerce-product-gallery__trigger + .woocommerce-product-gallery__wrapper {
@@ -3173,7 +3173,7 @@ body.rtl.woocommerce-page div.product .matportal-widget-woocommerce-product-imag
     color: #7bb32e; }
   .matportal-widget-reviews .matportal-testimonial__icon.matportal-icon-whatsapp {
     color: #25d366; }
-  .matportal-widget-reviews .matportal-testimonial__icon.matportal-icon-matdesign {
+  .matportal-widget-reviews .matportal-testimonial__icon.matportal-icon-wordpress {
     color: #21759b; }
   .matportal-widget-reviews .matportal-testimonial__icon.matportal-icon-xing {
     color: #026466; }
@@ -5501,92 +5501,92 @@ ol.matportal-toc__list-wrapper {
   .matportal-toc--minimized-on-mobile .matportal-toc__body {
     display: none; } }
 
-.matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-1 ul.products li.product {
+.matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-1 ul.products li.product {
   width: 100%; }
 
-.matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-2 ul.products li.product {
+.matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-2 ul.products li.product {
   width: 50%; }
 
-.matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-3 ul.products li.product {
+.matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-3 ul.products li.product {
   width: 33.33333%; }
 
-.matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-4 ul.products li.product {
+.matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-4 ul.products li.product {
   width: 25%; }
 
-.matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-5 ul.products li.product {
+.matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-5 ul.products li.product {
   width: 20%; }
 
-.matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-6 ul.products li.product {
+.matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-6 ul.products li.product {
   width: 16.66667%; }
 
-.matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-7 ul.products li.product {
+.matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-7 ul.products li.product {
   width: 14.28571%; }
 
-.matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-8 ul.products li.product {
+.matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-8 ul.products li.product {
   width: 12.5%; }
 
-.matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-9 ul.products li.product {
+.matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-9 ul.products li.product {
   width: 11.11111%; }
 
-.matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-10 ul.products li.product {
+.matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-10 ul.products li.product {
   width: 10%; }
 
-.matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-11 ul.products li.product {
+.matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-11 ul.products li.product {
   width: 9.09091%; }
 
-.matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-12 ul.products li.product {
+.matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-12 ul.products li.product {
   width: 8.33333%; }
 
 @media (max-width: 1024px) {
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-tablet-1 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-tablet-1 ul.products li.product {
     width: 100%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-tablet-2 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-tablet-2 ul.products li.product {
     width: 50%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-tablet-3 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-tablet-3 ul.products li.product {
     width: 33.33333%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-tablet-4 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-tablet-4 ul.products li.product {
     width: 25%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-tablet-5 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-tablet-5 ul.products li.product {
     width: 20%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-tablet-6 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-tablet-6 ul.products li.product {
     width: 16.66667%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-tablet-7 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-tablet-7 ul.products li.product {
     width: 14.28571%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-tablet-8 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-tablet-8 ul.products li.product {
     width: 12.5%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-tablet-9 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-tablet-9 ul.products li.product {
     width: 11.11111%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-tablet-10 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-tablet-10 ul.products li.product {
     width: 10%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-tablet-11 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-tablet-11 ul.products li.product {
     width: 9.09091%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-tablet-12 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-tablet-12 ul.products li.product {
     width: 8.33333%; } }
 
 @media (max-width: 767px) {
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-mobile-1 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-mobile-1 ul.products li.product {
     width: 100%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-mobile-2 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-mobile-2 ul.products li.product {
     width: 50%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-mobile-3 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-mobile-3 ul.products li.product {
     width: 33.33333%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-mobile-4 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-mobile-4 ul.products li.product {
     width: 25%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-mobile-5 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-mobile-5 ul.products li.product {
     width: 20%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-mobile-6 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-mobile-6 ul.products li.product {
     width: 16.66667%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-mobile-7 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-mobile-7 ul.products li.product {
     width: 14.28571%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-mobile-8 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-mobile-8 ul.products li.product {
     width: 12.5%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-mobile-9 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-mobile-9 ul.products li.product {
     width: 11.11111%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-mobile-10 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-mobile-10 ul.products li.product {
     width: 10%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-mobile-11 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-mobile-11 ul.products li.product {
     width: 9.09091%; }
-  .matportal-msie .matportal-element.matportal-wc-products.matrimony-products-columns-mobile-12 ul.products li.product {
+  .matportal-msie .matportal-element.matportal-wc-products.matrimony-customducts-columns-mobile-12 ul.products li.product {
     width: 8.33333%; } }
 
 .matportal-msie .matportal-element.matportal-wc-products ul.products, .matportal-msie .matportal-posts {
